@@ -1,0 +1,73 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 14px;
+  }
+  
+ 
+  
+  .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+
+  
+
+
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;
+    scroll-behavior: smooth;
+     
+}
+
+footer{
+
+  height: 200px;
+}
+.img-back {
+  background-color: white; 
+}
+.nav-links {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 2px; 
+}
+
+#umMission {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) { 
+  #umMission {
+    overflow: auto;
+  }
+}
+#Business {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) { 
+ #Business  {
+    overflow: auto;
+  }
+}
+
+#Magazine  {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) { 
+ #Magazine  {
+    overflow: auto;
+  }
+}
