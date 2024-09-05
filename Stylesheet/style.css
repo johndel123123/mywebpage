@@ -1,42 +1,36 @@
-*{
-
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
+
 html {
-    font-size: 14px;
-  }
-  
- 
-  
-  .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-  }
-  
-  html {
-    position: relative;
-    min-height: 100%;
-  }
-  
-
-  
-
-
-section{
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 100vh;
-    scroll-behavior: smooth;
-     
+  font-size: 14px;
 }
 
-footer{
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+footer {
   height: 200px;
 }
+
 .img-back {
   background-color: white; 
 }
+
 .nav-links {
   text-decoration: underline;
   text-decoration-color: white;
@@ -49,25 +43,38 @@ footer{
 
 @media (max-width: 768px) { 
   #umMission {
-    overflow: auto;
+      overflow: auto;
+  }
+  section {
+      margin-left: 20px; /* Adjusted margin for smaller screens */
+      margin-right: 20px; /* Adjusted margin for smaller screens */
   }
 }
+
 #Business {
   overflow: hidden;
 }
 
 @media (max-width: 768px) { 
- #Business  {
-    overflow: auto;
+  #Business {
+      overflow: auto;
+  }
+  section {
+      margin-left: 20px; 
+      margin-right: 20px; 
   }
 }
 
-#Magazine  {
+#Magazine {
   overflow: hidden;
 }
 
 @media (max-width: 768px) { 
- #Magazine  {
-    overflow: auto;
+  #Magazine {
+      overflow: auto;
+  }
+  section {
+      margin-left: 20px; /* Adjusted margin for smaller screens */
+      margin-right: 20px; /* Adjusted margin for smaller screens */
   }
 }
